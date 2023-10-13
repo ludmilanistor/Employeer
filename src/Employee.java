@@ -1,12 +1,17 @@
 public class Employee {
-    private String name;
+
+private String name;
     public String getName() {
         return name;
     }
     public void setName(String name) {
         this.name = name;    }
 
-    private int age;
+    public  String getName(){
+        return name;
+    }
+    
+  private int age;
     
    public Employee (int age) {}
         if (age > 0) {
@@ -25,7 +30,8 @@ public class Employee {
     public int getAge() {
         return age;}
 
-    private String department;
+
+private String department;
     public String getDepartment() {
         return department;
     }
