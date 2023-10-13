@@ -29,6 +29,6 @@ public class Employee {
         return department;
     }
     public void setDepartment(String department){
-        this.department = department; }
+        this.department = department;}
 
 }
