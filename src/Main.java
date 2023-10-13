@@ -4,6 +4,7 @@ public class Main {
 
             Employee employee = new Employee(17);
 
+        
         System.out.println("Ani lucrati " + employee.getAge());
     }
 }
