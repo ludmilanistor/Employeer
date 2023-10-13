@@ -7,13 +7,14 @@ public class Employee {
         this.name = name;    }
 
     private int age;
+    
    public Employee (int age) {}
-//        if (age > 0) {
-//            this.age = age;
-//        } else {
-//            System.out.println("Stagiu de lucru mai putin de un an nu sunt");
-//        }
-//    }
+        if (age > 0) {
+            this.age = age;
+       } else {
+           System.out.println("Stagiu de lucru mai putin de un an nu sunt");
+       }
+   }
   public void setAge(int age) {
         if (age > 0) {
         this.age = age;
