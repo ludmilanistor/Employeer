@@ -23,10 +23,8 @@ private String name;
   public void setAge(int age) {
         if (age > 0) {
         this.age = age;
-    } else {
-        System.out.println("Stagiu de lucru mai putin de un an nu sunt");
-    }
-}
+    } 
+      
     public int getAge() {
         return age;}
 
